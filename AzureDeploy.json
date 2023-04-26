@@ -168,7 +168,7 @@
     "publicIPAddressName": "PublicIP-VM",
     "publicIPAddressType": "Dynamic",
     "vmStorageAccountContainerName": "vhds",
-    "virtualNetworkName": "VNet",
+    "virtualNetworkName": "[toLower(concat( 'vnet-',variables('dnsName')))]",
     "addressPrefix": "10.6.0.0/16",
     "nicName": "NIC",
     "lbName": "LoadBalancer",
