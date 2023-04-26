@@ -67,7 +67,7 @@
     },
     "loadBalancedAppPort2": {
       "type": "int",
-      "defaultValue": 443
+      "defaultValue": 443,
       "metadata": {
         "description": "Input endpoint2 for the application to use. Replace it with what your application uses"
       }
