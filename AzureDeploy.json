@@ -200,7 +200,7 @@
     "lbProbeID0": "[concat(variables('lbID0'),'/probes/FabricGatewayProbe')]",
     "lbHttpProbeID0": "[concat(variables('lbID0'),'/probes/FabricHttpGatewayProbe')]",
     "lbNatPoolID0": "[concat(variables('lbID0'),'/inboundNatPools/LoadBalancerBEAddressNatPool')]",
-    "vmNodeType0Name": "[toLower(concat('NT1', variables('vmName'), ,variables('dnsName')))]",
+    "vmNodeType0Name": "[toLower(concat('NT1', variables('vmName')))]",
     "vmStorageAccountName0": "[toLower(concat(uniqueString(resourceGroup().id), '1', '0' ))]",
     "wadmetricsresourceid0": "[concat('/subscriptions/',subscription().subscriptionId,'/resourceGroups/',resourceGroup().name ,'/providers/','Microsoft.Compute/virtualMachineScaleSets/', variables('vmNodeType0Name'))]"
   },
