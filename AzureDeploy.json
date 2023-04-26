@@ -578,7 +578,7 @@
       "sku": {
         "name": "[parameters('vmNodeType0Size')]",
         "capacity": "[parameters('nt0InstanceCount')]",
-        "tier": "Bronze"
+        "tier": "Standard"
       },
       "tags": {
         "resourceType": "Service Fabric",
